@@ -1,0 +1,109 @@
+/* themes
+	ocean theme: https://coolors.co/b5ffe9-94b0da-8f91a2-343f3e-1b264f
+	pastel theme: https://coolors.co/f5fffa-f0f8ff-e6e6fa-fff0f5-ffe4e1
+	cotton candy theme: https://coolors.co/cdb4db-ffc8dd-ffafcc-bde0fe-a2d2ff
+	starry night theme: https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
+*/
+
+html{
+	height: 100%;
+	background-color: #FFE4E1;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+main{
+	width: 800px;
+	height: 500px;
+	display: grid;
+	grid-template-rows: 60px auto 40px;
+}
+
+section{
+	border: 5px solid #DCDCF9;
+	padding: 25px;
+	border-radius: 10px;
+	background-color: #FFF0F5;
+	color: #000000;
+	font-family: 'Times New Roman';
+	font-size: 14pt;
+}
+
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 6px;
+	grid-gap: 6px; 
+}
+
+#menu > input{
+	background-color: #DCDCF9;
+	color: #F5FFFA;
+	font-size: 12pt;
+	font-family: 'Times New Roman';
+	border: 2px solid #F5FFFA;
+	border-radius: 15px;
+}
+
+#menu > input:hover{
+	background-color: #F5FFFA;
+	color: #DCDCF9;
+	border: 2px solid #DCDCF9;
+}
+
+#theme{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 6px;
+	grid-gap: 6px; 
+}
+
+#theme > input{
+	background-color: #F5FFFA;
+	color: #DCDCF9;
+	font-size: 12pt;
+	font-family: 'Times New Roman';
+	border: 2px solid #DCDCF9;
+	border-radius: 12px;
+}
+
+#theme > input:hover{
+	background-color: #DCDCF9;
+	color: #F5FFFA;
+	border: 2px solid #F5FFFA;
+}
+
+#polarbear{
+	float: right;
+	margin: 40px;
+	height: 250px;
+}
+
+#flamingo{
+	float: right;
+	margin: 40px;
+	height: 250px;
+}
+
+#frootloops{
+	float: right;
+	margin: 40px;
+	height: 250px;
+}
+
+#moon{
+	float: right;
+	margin: 40px;
+	height: 250px;
+}
+
+#buckinghampalace{
+	float: right;
+	margin: 40px;
+	height: 250px;
+}
+
